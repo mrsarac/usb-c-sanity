@@ -1,6 +1,6 @@
 # USB-C Cable Sanity CLI
 
-Read-only macOS command-line helper for quickly checking the USB-C connection signals that macOS exposes for the current device, port, and cable combination.
+macOS-only, read-only USB-C sanity helper delivered as a single zsh script. It reports the connection signals macOS exposes for the current device, port, and cable combination, and makes no certification claims.
 
 The tool is published as a small, dependency-free macOS utility with deliberately narrow claims and safe defaults.
 
@@ -92,3 +92,5 @@ make verify-release
 ```
 
 Before sharing reports publicly, review output for private device names or identifiers.
+
+Status / limits: prototype CLI; observes macOS-exposed signals only and does not certify cable capacity.
